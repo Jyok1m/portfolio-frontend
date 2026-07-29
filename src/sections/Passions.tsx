@@ -19,14 +19,14 @@ export default function Passions() {
 			key: "kendo",
 			title: t.interests.items.kendo.title,
 			description: t.interests.items.kendo.description,
-			icon: ["fas", "swords"] as IconProp,
+			icon: ["fas", "khanda"] as IconProp,
 			color: "cyber-cyan",
 		},
 		{
 			key: "rugby",
 			title: t.interests.items.rugby.title,
 			description: t.interests.items.rugby.description,
-			icon: ["fas", "rugby-ball"] as IconProp,
+			icon: ["fas", "football"] as IconProp,
 			color: "cyber-purple",
 		},
 		{

@@ -4,13 +4,7 @@ WORKDIR /app
 
 COPY package.json yarn.lock ./
 
-# Usage : echo "<FA_TOKEN>" > .fa-token && docker build --secret id=FONTAWESOME_TOKEN,src=.fa-token -t portfolio . ; rm .fa-token
-RUN --mount=type=secret,id=FONTAWESOME_TOKEN \
-    FONTAWESOME_TOKEN=$(cat /run/secrets/FONTAWESOME_TOKEN) && \
-    echo "@fortawesome:registry=https://npm.fontawesome.com/" > .npmrc && \
-    echo "//npm.fontawesome.com/:_authToken=$(cat /run/secrets/FONTAWESOME_TOKEN)" >> .npmrc && \
-    yarn install --frozen-lockfile && \
-    rm -f .npmrc
+RUN yarn install --frozen-lockfile
 
 COPY . .
 

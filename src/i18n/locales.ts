@@ -288,14 +288,27 @@ export const locales = {
 				"repo-front": "Front",
 				"repo-back": "Back",
 				repo: "Microservice",
+				repoMono: "Code source",
 				// repoInfra: "Infrastructure",
 			},
 			items: [
 				{
+					slug: "heirloom",
+					name: "Heirloom",
+					description:
+						"Application open source (AGPL-3.0) et self-hosted de création d'arbres généalogiques. Vos données de famille restent sur votre machine, sans cloud propriétaire. Import/export GEDCOM 5.5.1, rendu d'arbre automatique et assistant IA intégré.",
+					stack: ["NestJS", "GraphQL", "Prisma", "PostgreSQL", "React", "Vite", "Astro", "Docker", "Ansible"],
+					links: {
+						site: "https://heirloom-app.com",
+						repoMono: "https://github.com/Jyok1m/heirloom",
+					},
+					status: "En cours de dev",
+				},
+				{
 					slug: "odyssai",
 					name: "Odyssai",
 					description:
-						"Application de jeu de rôle narratif propulsée par l’IA, où le joueur devient le héros de sa propre histoire. Vous pouvez créer des mondes, façonner des personnages et faire évoluer le scénario à travers de vraies conversations naturelles.",
+						"Jeu de rôle narratif propulsé par l’IA où le joueur devient le héros de sa propre histoire. Créez des mondes, façonnez des personnages et faites évoluer le scénario au fil de conversations naturelles.",
 					stack: ["NestJS", "React", "LangChain", "MongoDB", "Docker", "Docker Compose", "ChromaDB", "OpenAI"],
 					links: {
 						// site: "https://odyssai.app/",
@@ -309,7 +322,7 @@ export const locales = {
 					slug: "neoney",
 					name: "Neoney",
 					description:
-						"Le réseau social destiné aux Neo entrepreneurs pour révolutionner l’entrepreneuriat et faciliter encore plus la génération de business pour les membres. Un réseau social créé par des entrepreneurs pour les entrepreneurs.",
+						"Réseau social pensé pour les néo-entrepreneurs, conçu par des entrepreneurs pour des entrepreneurs. Il facilite la mise en relation et la génération de business entre membres.",
 					stack: ["Next.js", "Express", "Tailwind", "MongoDB", "Vercel", "Northflank"],
 					links: {
 						site: "https://www.neoney.co/",
@@ -320,7 +333,7 @@ export const locales = {
 					slug: "ipseis",
 					name: "Ipseis",
 					description:
-						"IPSEIS conçoit des formations actives, immersives et sur mesure pour les professionnels de la santé, du social et médico-social.",
+						"Plateforme de formations actives, immersives et sur mesure destinées aux professionnels de la santé, du social et du médico-social.",
 					stack: ["Next.js", "Express", "Docker", "Tailwind", "Fontawesome", "MongoDB", "Vercel"],
 					links: {
 						site: "https://www.ipseis.fr",
@@ -333,7 +346,7 @@ export const locales = {
 					slug: "generation_sauveteurs",
 					name: "Génération Sauveteur",
 					description:
-						"Conçus par des professionnels du sauvetage, ce jeu permet d'apprendre sur la sécurité aquatique et l'environnement tout en vous amusant !",
+						"Jeu éducatif conçu par des professionnels du sauvetage pour apprendre la sécurité aquatique et le respect de l'environnement tout en s'amusant.",
 					stack: ["React", "Symfony", "Nginx", "OVH", "MariaDB"],
 					links: {
 						site: "https://app.generationsauveteur.fr/",
@@ -343,7 +356,8 @@ export const locales = {
 				{
 					slug: "ai-wedder",
 					name: "AI Wedder",
-					description: "Plateforme d'analyse d'avis prestataires mariage avec IA.",
+					description:
+						"Plateforme d'analyse des avis de prestataires de mariage. L'IA évalue la qualité et le sentiment pour aider les couples à choisir en confiance.",
 					stack: ["Next.js", "FastAPI", "MongoDB", "HuggingFace", "Playwright", "OpenAI", "CamemBERT"],
 					links: {
 						site: "https://ai-wedder-frontend.vercel.app/",
@@ -775,14 +789,27 @@ export const locales = {
 				"repo-front": "Frontend",
 				"repo-back": "Backend",
 				repo: "Microservice",
+				repoMono: "Source code",
 				repoInfra: "Infrastructure",
 			},
 			items: [
 				{
+					slug: "heirloom",
+					name: "Heirloom",
+					description:
+						"Open-source (AGPL-3.0), self-hosted family tree builder. Your family data stays on your own machine, with no proprietary cloud. GEDCOM 5.5.1 import/export, automatic tree rendering and a built-in AI assistant.",
+					stack: ["NestJS", "GraphQL", "Prisma", "PostgreSQL", "React", "Vite", "Astro", "Docker", "Ansible"],
+					links: {
+						site: "https://heirloom-app.com",
+						repoMono: "https://github.com/Jyok1m/heirloom",
+					},
+					status: "Work in progress",
+				},
+				{
 					slug: "odyssai",
 					name: "Odyssai",
 					description:
-						"An AI-powered narrative role-playing game where the player becomes the hero of their own story. You can create worlds, shape characters, and influence the plot through natural conversations.",
+						"AI-powered narrative role-playing game where the player becomes the hero of their own story. Create worlds, shape characters and steer the plot through natural conversations.",
 					stack: ["Flask", "Expo", "LangChain", "MongoDB", "Docker", "Docker Compose", "ChromaDB", "OpenAI"],
 					links: {
 						"repo-front": "https://github.com/Jyok1m/odyssai-app",
@@ -795,7 +822,7 @@ export const locales = {
 					slug: "neoney",
 					name: "Neoney",
 					description:
-						"A social network for Neo-entrepreneurs, designed to reinvent entrepreneurship and make business generation easier for its members. A platform built by entrepreneurs, for entrepreneurs.",
+						"A social network built for neo-entrepreneurs, made by entrepreneurs for entrepreneurs. It streamlines networking and business generation between members.",
 					stack: ["Next.js", "Express", "Tailwind", "MongoDB", "Vercel", "Northflank"],
 					links: {
 						site: "https://www.neoney.co/",
@@ -806,7 +833,7 @@ export const locales = {
 					slug: "ipseis",
 					name: "Ipseis",
 					description:
-						"IPSEIS designs active, immersive, and tailor-made training programs for professionals in the healthcare, social, and medical-social sectors.",
+						"A platform of active, immersive and tailor-made training programs for professionals in the healthcare, social and medical-social sectors.",
 					stack: ["Next.js", "Express", "Docker", "Tailwind", "Fontawesome", "MongoDB", "Vercel"],
 					links: {
 						site: "https://www.ipseis.fr",
@@ -818,7 +845,8 @@ export const locales = {
 				{
 					slug: "generation_sauveteurs",
 					name: "Génération Sauveteur",
-					description: "Created by professional rescuers, this educational game teaches water safety and environmental awareness while having fun.",
+					description:
+						"An educational game built by professional rescuers to teach water safety and environmental awareness while having fun.",
 					stack: ["React", "Symfony", "Nginx", "OVH", "MariaDB"],
 					links: {
 						site: "https://app.generationsauveteur.fr/",
@@ -828,7 +856,8 @@ export const locales = {
 				{
 					slug: "ai-wedder",
 					name: "AI Wedder",
-					description: "An AI-based platform that analyzes wedding vendor reviews to assess quality and sentiment.",
+					description:
+						"A platform that analyzes wedding vendor reviews, using AI to assess quality and sentiment so couples can choose with confidence.",
 					stack: ["Next.js", "FastAPI", "MongoDB", "HuggingFace", "Playwright", "OpenAI", "CamemBERT"],
 					links: {
 						site: "https://ai-wedder-frontend.vercel.app/",

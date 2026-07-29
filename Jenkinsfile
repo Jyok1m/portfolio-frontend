@@ -17,13 +17,9 @@ pipeline {
                 }
             }
             steps {
-                withCredentials([string(credentialsId: 'fontawesome-token', variable: 'FONTAWESOME_TOKEN')]) {
-                    sh '''
-                        echo "$FONTAWESOME_TOKEN" > .fa-token
-                        docker build --secret id=FONTAWESOME_TOKEN,src=.fa-token -t $DOCKER_IMAGE:$DOCKER_TAG .
-                        rm -f .fa-token
-                    '''
-                }
+                sh '''
+                    docker build -t $DOCKER_IMAGE:$DOCKER_TAG .
+                '''
             }
         }
 

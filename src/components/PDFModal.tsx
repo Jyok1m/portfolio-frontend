@@ -80,7 +80,7 @@ export default function PDFModal({ isOpen, onClose, pdfUrl, title }: PDFModalPro
 					{error ? (
 						<div className="absolute inset-0 flex items-center justify-center">
 							<div className="text-center">
-								<FontAwesomeIcon icon={["fas", "file-exclamation"]} className="text-4xl text-red-400 mb-4" />
+								<FontAwesomeIcon icon={["fas", "file-circle-exclamation"]} className="text-4xl text-red-400 mb-4" />
 								<p className="text-red-400 mb-4">{t.pdf.error}</p>
 								<button onClick={handleDownload} className="cyber-button">
 									{t.pdf.downloadButton}
