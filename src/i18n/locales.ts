@@ -43,7 +43,8 @@ export const locales = {
 		},
 		skills: {
 			title: "Compétences",
-			description: "Un éventail de technologies et de compétences pour des solutions complètes",
+			description:
+				"Un éventail de technologies et de compétences pour des solutions complètes",
 			categories: {
 				cloud: {
 					title: "Cloud & DevOps",
@@ -101,7 +102,14 @@ export const locales = {
 				},
 				teaching: {
 					title: "Formation & Pédagogie",
-					skills: ["Passion", "Bootcamp", "Mentorat", "Management", "Debug", "Veille"],
+					skills: [
+						"Passion",
+						"Bootcamp",
+						"Mentorat",
+						"Management",
+						"Debug",
+						"Veille",
+					],
 				},
 			},
 			techDetails: {
@@ -120,69 +128,100 @@ export const locales = {
 					"Un outil essentiel pour décrire l’infrastructure comme du code. Il apporte reproductibilité, traçabilité et confiance dans les déploiements.",
 				Ansible:
 					"Je l’utilise pour automatiser les configurations serveurs et garantir des environnements identiques. Moins d’erreurs, plus de cohérence.",
-				Docker: "Les conteneurs simplifient le déploiement et éliminent les problèmes d’environnement. Avec Docker, tout tourne pareil, partout.",
+				Docker:
+					"Les conteneurs simplifient le déploiement et éliminent les problèmes d’environnement. Avec Docker, tout tourne pareil, partout.",
 				Traefik:
 					"Un reverse proxy moderne et intelligent, parfait pour Docker et Kubernetes. Je m’en sers pour gérer le routage, les certificats SSL et l’équilibrage de charge sans complexité.",
 				Kubernetes:
 					"Un orchestrateur exigeant mais incontournable. Une fois bien configuré, il gère la scalabilité, la résilience et la disponibilité sans intervention manuelle.",
-				"CI/CD": "Automatiser les builds, les tests et les déploiements rend les livraisons plus fiables. Moins d’erreurs, plus de sérénité.",
-				Jenkins: "Un outil historique du CI/CD, toujours efficace. Je l’utilise pour les pipelines personnalisés ou hors cloud.",
+				"CI/CD":
+					"Automatiser les builds, les tests et les déploiements rend les livraisons plus fiables. Moins d’erreurs, plus de sérénité.",
+				Jenkins:
+					"Un outil historique du CI/CD, toujours efficace. Je l’utilise pour les pipelines personnalisés ou hors cloud.",
 				"GitLab CI":
 					"Une solution intégrée pour coder, tester et déployer au même endroit. Idéale pour les équipes agiles et les projets collaboratifs.",
-				Prometheus: "Un outil fiable pour collecter les métriques et détecter les problèmes en amont. La base d’une bonne observabilité.",
+				Prometheus:
+					"Un outil fiable pour collecter les métriques et détecter les problèmes en amont. La base d’une bonne observabilité.",
 				Grafana:
 					"Je l’utilise pour visualiser les métriques et identifier les tendances. Des dashboards clairs permettent de prendre de meilleures décisions.",
 				SonarQube:
 					"Un outil indispensable pour maintenir la qualité du code. Il aide à repérer les vulnérabilités et la dette technique avant qu’elles ne coûtent cher.",
-				Cypress: "Un framework de test E2E simple et efficace. Il permet de tester le comportement utilisateur directement dans le navigateur.",
+				Cypress:
+					"Un framework de test E2E simple et efficace. Il permet de tester le comportement utilisateur directement dans le navigateur.",
 				Playwright:
 					"Une solution moderne pour tester sur plusieurs navigateurs. Idéale pour garantir la compatibilité front-end sur tous les environnements.",
 				Artillery:
 					"Je l’utilise pour simuler de fortes charges et mesurer les performances. Mieux vaut découvrir les limites avant les utilisateurs.",
 
 				// Full-stack
-				React: "Une librairie fiable pour créer des interfaces modernes et dynamiques. Les composants rendent le développement clair et modulaire.",
-				"Next.js": "Un framework complet qui optimise React pour la production. Rapide, structuré et prêt à l’emploi.",
-				TypeScript: "Le typage statique évite les erreurs classiques et renforce la stabilité du code. Un must sur les projets d’envergure.",
+				React:
+					"Une librairie fiable pour créer des interfaces modernes et dynamiques. Les composants rendent le développement clair et modulaire.",
+				"Next.js":
+					"Un framework complet qui optimise React pour la production. Rapide, structuré et prêt à l’emploi.",
+				TypeScript:
+					"Le typage statique évite les erreurs classiques et renforce la stabilité du code. Un must sur les projets d’envergure.",
 				"Node.js":
 					"Un environnement rapide et léger pour construire des APIs performantes. Son approche asynchrone convient parfaitement aux applications web modernes.",
-				NestJS: "Un framework backend structuré et maintenable. Idéal pour les applications Node.js complexes et durables.",
-				MongoDB: "Une base NoSQL flexible, parfaite quand le schéma évolue souvent. Simple à manipuler, elle facilite le prototypage rapide.",
-				PostgreSQL: "Une base de données relationnelle robuste et complète. Mon choix quand la fiabilité et la cohérence sont prioritaires.",
-				Express: "Un framework minimaliste et direct pour construire des APIs REST. Simple, rapide, efficace.",
-				"React Native": "Développer une seule base de code pour iOS et Android. Un gain de temps énorme sans sacrifier les performances.",
+				NestJS:
+					"Un framework backend structuré et maintenable. Idéal pour les applications Node.js complexes et durables.",
+				MongoDB:
+					"Une base NoSQL flexible, parfaite quand le schéma évolue souvent. Simple à manipuler, elle facilite le prototypage rapide.",
+				PostgreSQL:
+					"Une base de données relationnelle robuste et complète. Mon choix quand la fiabilité et la cohérence sont prioritaires.",
+				Express:
+					"Un framework minimaliste et direct pour construire des APIs REST. Simple, rapide, efficace.",
+				"React Native":
+					"Développer une seule base de code pour iOS et Android. Un gain de temps énorme sans sacrifier les performances.",
 				Expo: "Un écosystème React Native qui simplifie le développement mobile. Moins de configuration, plus de résultats.",
-				Flask: "Un micro-framework Python idéal pour les APIs légères et les prototypes IA. Sobre, rapide et extensible.",
-				Tailwind: "Un framework CSS moderne et pragmatique. Il accélère le design tout en gardant un style cohérent et maintenable.",
+				Flask:
+					"Un micro-framework Python idéal pour les APIs légères et les prototypes IA. Sobre, rapide et extensible.",
+				Tailwind:
+					"Un framework CSS moderne et pragmatique. Il accélère le design tout en gardant un style cohérent et maintenable.",
 
 				// AI Engineering
-				"OpenAI GPT": "Une base solide pour créer des outils de génération de texte ou de conversation. Simple à intégrer, puissante à exploiter.",
+				"OpenAI GPT":
+					"Une base solide pour créer des outils de génération de texte ou de conversation. Simple à intégrer, puissante à exploiter.",
 				LangChain:
 					"Le chaînon manquant entre modèles, données et logique métier. Il rend les LLM réellement utilisables dans des contextes concrets.",
-				FastAPI: "Un framework Python rapide et typé, parfait pour les APIs modernes. Sa documentation automatique facilite le travail en équipe.",
-				Python: "Mon langage principal pour l’IA et l’automatisation. Lisible, polyvalent et soutenu par un écosystème riche.",
+				FastAPI:
+					"Un framework Python rapide et typé, parfait pour les APIs modernes. Sa documentation automatique facilite le travail en équipe.",
+				Python:
+					"Mon langage principal pour l’IA et l’automatisation. Lisible, polyvalent et soutenu par un écosystème riche.",
 				ML: "Le machine learning consiste à faire apprendre des modèles à partir des données. Je l’utilise pour la prédiction, la classification et l’analyse.",
-				PyTorch: "Un framework flexible et intuitif, parfait pour expérimenter et prototyper rapidement des modèles IA.",
-				TensorFlow: "Un framework complet et optimisé pour la production. Idéal pour les projets IA à grande échelle.",
+				PyTorch:
+					"Un framework flexible et intuitif, parfait pour expérimenter et prototyper rapidement des modèles IA.",
+				TensorFlow:
+					"Un framework complet et optimisé pour la production. Idéal pour les projets IA à grande échelle.",
 				"Scikit-learn":
 					"Une bibliothèque simple et fiable pour les algorithmes classiques de machine learning. Parfaite pour tester et itérer rapidement.",
-				Keras: "Une interface intuitive au-dessus de TensorFlow qui facilite le prototypage rapide en deep learning.",
-				NumPy: "Le socle du calcul scientifique en Python. Je l’utilise pour toutes les manipulations numériques et le traitement de données.",
-				ChromaDB: "Une base vectorielle moderne pour la recherche sémantique et la mémoire d’IA. Idéale pour les applications contextuelles.",
-				Pinecone: "Une solution cloud rapide et scalable pour gérer les embeddings. Simple à intégrer, parfaite pour la production.",
+				Keras:
+					"Une interface intuitive au-dessus de TensorFlow qui facilite le prototypage rapide en deep learning.",
+				NumPy:
+					"Le socle du calcul scientifique en Python. Je l’utilise pour toutes les manipulations numériques et le traitement de données.",
+				ChromaDB:
+					"Une base vectorielle moderne pour la recherche sémantique et la mémoire d’IA. Idéale pour les applications contextuelles.",
+				Pinecone:
+					"Une solution cloud rapide et scalable pour gérer les embeddings. Simple à intégrer, parfaite pour la production.",
 
 				// Formation
-				Bootcamp: "Une expérience d’apprentissage intense et concrète. On pratique dès le premier jour et on progresse vite.",
-				Mentorat: "Écouter, guider, faire grandir. J’aide les profils à trouver leur autonomie plutôt que de leur tracer le chemin.",
-				Management: "Manager, c’est donner du cadre sans brider. Clarté, coordination et confiance font la différence.",
-				Passion: "Ce qui me pousse à apprendre, créer et transmettre. La curiosité reste mon moteur principal.",
-				Debug: "Résoudre un bug, c’est comprendre le système. C’est une démarche logique et méthodique que j’apprécie.",
-				Veille: "Rester à jour fait partie du métier. J’observe, je teste et j’intègre ce qui améliore ma pratique.",
+				Bootcamp:
+					"Une expérience d’apprentissage intense et concrète. On pratique dès le premier jour et on progresse vite.",
+				Mentorat:
+					"Écouter, guider, faire grandir. J’aide les profils à trouver leur autonomie plutôt que de leur tracer le chemin.",
+				Management:
+					"Manager, c’est donner du cadre sans brider. Clarté, coordination et confiance font la différence.",
+				Passion:
+					"Ce qui me pousse à apprendre, créer et transmettre. La curiosité reste mon moteur principal.",
+				Debug:
+					"Résoudre un bug, c’est comprendre le système. C’est une démarche logique et méthodique que j’apprécie.",
+				Veille:
+					"Rester à jour fait partie du métier. J’observe, je teste et j’intègre ce qui améliore ma pratique.",
 			},
 		},
 		education: {
 			title: "Diplômes & Certifications",
-			subtitle: "De l'hôtellerie et la finance à l'IA : un parcours de reconversion guidé par la curiosité et l'apprentissage continu",
+			subtitle:
+				"De l'hôtellerie et la finance à l'IA : un parcours de reconversion guidé par la curiosité et l'apprentissage continu",
 			badges: {
 				degree: "Diplôme",
 				certification: "Certification",
@@ -201,42 +240,51 @@ export const locales = {
 				aiEngineer: {
 					title: "Certification Ingénieur IA",
 					institution: "Ironhack",
-					description: "Spécialisation en machine learning, deep learning, NLP et déploiement d'applications IA avec Python, PyTorch et LangChain",
+					description:
+						"Spécialisation en machine learning, deep learning, NLP et déploiement d'applications IA avec Python, PyTorch et LangChain",
 				},
 				rncp: {
-					title: "RNCP 6 - Concepteur-Développeur d'Appplications Web & Mobiles",
+					title:
+						"RNCP 6 - Concepteur-Développeur d'Appplications Web & Mobiles",
 					institution: "La Capsule - Tech Bootcamp",
-					description: "Certification professionnelle niveau Bac+3/4 en développement web, mobile et transformation digitale",
+					description:
+						"Certification professionnelle niveau Bac+3/4 en développement web, mobile et transformation digitale",
 				},
 				mscSkema: {
 					title: "MSc Corporate Financial Management",
 					institution: "SKEMA Business School",
-					description: "Master spécialisé en finance d'entreprise, analyse financière, stratégie d'investissement et contrôle de gestion",
+					description:
+						"Master spécialisé en finance d'entreprise, analyse financière, stratégie d'investissement et contrôle de gestion",
 				},
 				desmiSkema: {
 					title: "DESMI Management International",
 					institution: "SKEMA Business School",
-					description: "Diplôme d'études supérieures en management international, stratégie globale et développement commercial",
+					description:
+						"Diplôme d'études supérieures en management international, stratégie globale et développement commercial",
 				},
 				bbaGlion: {
 					title: "BBA (Hons.) Management Hôtelier International",
 					institution: "Glion Institute of Higher Education",
-					description: "Bachelor avec mention en management hôtelier, développement immobilier hôtelier et finance hospitality",
+					description:
+						"Bachelor avec mention en management hôtelier, développement immobilier hôtelier et finance hospitality",
 				},
 			},
 		},
 		interests: {
 			title: "Mes Passions",
 			description: "Au-delà du code, ce qui m'anime",
-			quote: "De la finance à l'IA, chaque passion nourrit ma vision : comprendre, créer et transmettre avec authenticité.",
+			quote:
+				"De la finance à l'IA, chaque passion nourrit ma vision : comprendre, créer et transmettre avec authenticité.",
 			items: {
 				kendo: {
 					title: "Kendo",
-					description: "Art martial traditionnel japonais, discipline et dépassement de soi",
+					description:
+						"Art martial traditionnel japonais, discipline et dépassement de soi",
 				},
 				rugby: {
 					title: "Rugby & Équipe de France",
-					description: "Passion pour l'ovalie et supporter inconditionnel du XV de France",
+					description:
+						"Passion pour l'ovalie et supporter inconditionnel du XV de France",
 				},
 				anime: {
 					title: "Animes & Mangas",
@@ -248,7 +296,8 @@ export const locales = {
 				},
 				theater: {
 					title: "Théâtre",
-					description: "Expression artistique et travail sur la présence scénique",
+					description:
+						"Expression artistique et travail sur la présence scénique",
 				},
 				food: {
 					title: "Gastronomie",
@@ -271,7 +320,8 @@ export const locales = {
 		},
 		projects: {
 			title: "Mes Projets et Liens",
-			description: "Quelques plateformes, outils et expériences techniques que j'ai développés.",
+			description:
+				"Quelques plateformes, outils et expériences techniques que j'ai développés.",
 			status: {
 				active: "Actif",
 				paused: "En pause",
@@ -293,37 +343,66 @@ export const locales = {
 			},
 			items: [
 				{
-					slug: "heirloom",
-					name: "Heirloom",
+					slug: "odyssai",
+					name: "OdyssAI",
 					description:
-						"Application open source (AGPL-3.0) et self-hosted de création d'arbres généalogiques. Vos données de famille restent sur votre machine, sans cloud propriétaire. Import/export GEDCOM 5.5.1, rendu d'arbre automatique et assistant IA intégré.",
-					stack: ["NestJS", "GraphQL", "Prisma", "PostgreSQL", "React", "Vite", "Astro", "Docker", "Ansible"],
+						"Jeu de rôle narratif qui se joue en ligne. Le maître du jeu est un narrateur IA : il décrit les lieux, fait parler les personnages, arbitre vos actions et se souvient de tout ce qui s'est passé. Pas besoin de réunir un groupe un vendredi soir ni de trouver quelqu'un pour mener la partie. Le narrateur est toujours là, et il connaît votre histoire.",
+					stack: [
+						"NestJS",
+						"NextJS",
+						"LangGraph",
+						"LangSmith",
+						"PostgreSQL",
+						"PGVector",
+						"MongoDB",
+						"RabbitMQ",
+						"Keycloak",
+						"Jenkins",
+						"Docker",
+						"OpenRouter",
+						"OpenAI",
+					],
 					links: {
-						site: "https://heirloom-app.com",
-						repoMono: "https://github.com/Jyok1m/heirloom",
+						site: "https://odyssai.app",
+						repoMono: "https://github.com/Jyok1m/odyssai",
 					},
 					status: "En cours de dev",
 				},
 				{
-					slug: "odyssai",
-					name: "Odyssai",
+					slug: "heirloom",
+					name: "Heirloom",
 					description:
-						"Jeu de rôle narratif propulsé par l’IA où le joueur devient le héros de sa propre histoire. Créez des mondes, façonnez des personnages et faites évoluer le scénario au fil de conversations naturelles.",
-					stack: ["NestJS", "React", "LangChain", "MongoDB", "Docker", "Docker Compose", "ChromaDB", "OpenAI"],
+						"Application open source (AGPL-3.0) et self-hosted de création d'arbres généalogiques. Vos données de famille restent sur votre machine, sans cloud propriétaire. Import/export GEDCOM 5.5.1, rendu d'arbre automatique et assistant IA intégré.",
+					stack: [
+						"NestJS",
+						"GraphQL",
+						"Prisma",
+						"PostgreSQL",
+						"React",
+						"Vite",
+						"Astro",
+						"Docker",
+						"Ansible",
+					],
 					links: {
-						// site: "https://odyssai.app/",
-						"repo-front": "https://gitlab.com/odyssai/web",
-						"repo-back": "https://gitlab.com/odyssai/odyssai-backend",
-						// repoInfra: "https://gitlab.com/odyssai/odyssai-infra",
+						site: "https://heirloom-app.com",
+						repoMono: "https://github.com/Jyok1m/heirloom",
 					},
-					status: "En cours de dev",
+					status: "Actif",
 				},
 				{
 					slug: "neoney",
 					name: "Neoney",
 					description:
 						"Réseau social pensé pour les néo-entrepreneurs, conçu par des entrepreneurs pour des entrepreneurs. Il facilite la mise en relation et la génération de business entre membres.",
-					stack: ["Next.js", "Express", "Tailwind", "MongoDB", "Vercel", "Northflank"],
+					stack: [
+						"Next.js",
+						"Express",
+						"Tailwind",
+						"MongoDB",
+						"Vercel",
+						"Northflank",
+					],
 					links: {
 						site: "https://www.neoney.co/",
 					},
@@ -334,9 +413,17 @@ export const locales = {
 					name: "Ipseis",
 					description:
 						"Plateforme de formations actives, immersives et sur mesure destinées aux professionnels de la santé, du social et du médico-social.",
-					stack: ["Next.js", "Express", "Docker", "Tailwind", "Fontawesome", "MongoDB", "Vercel"],
+					stack: [
+						"Next.js",
+						"Express",
+						"Docker",
+						"Tailwind",
+						"Fontawesome",
+						"MongoDB",
+						"Vercel",
+					],
 					links: {
-						site: "https://www.ipseis.fr",
+						site: "https://ipseis.eu",
 						"repo-front": "https://github.com/Jyok1m/ipseis",
 						"repo-back": "https://github.com/Jyok1m/ipseis-backend",
 					},
@@ -358,7 +445,15 @@ export const locales = {
 					name: "AI Wedder",
 					description:
 						"Plateforme d'analyse des avis de prestataires de mariage. L'IA évalue la qualité et le sentiment pour aider les couples à choisir en confiance.",
-					stack: ["Next.js", "FastAPI", "MongoDB", "HuggingFace", "Playwright", "OpenAI", "CamemBERT"],
+					stack: [
+						"Next.js",
+						"FastAPI",
+						"MongoDB",
+						"HuggingFace",
+						"Playwright",
+						"OpenAI",
+						"CamemBERT",
+					],
 					links: {
 						site: "https://ai-wedder-frontend.vercel.app/",
 						"repo-front": "https://github.com/Jyok1m/ai-wedder-frontend",
@@ -371,13 +466,15 @@ export const locales = {
 		},
 		pricing: {
 			title: "Tarifs & Prestations",
-			subtitle: "Quelques repères pour situer un projet, du petit site jusqu'à une architecture plus complète. Les fourchettes sont indicatives, le tarif final dépend du cadrage.",
+			subtitle:
+				"Quelques repères pour situer un projet, du petit site jusqu'à une architecture plus complète. Les fourchettes sont indicatives, le tarif final dépend du cadrage.",
 			tjm: "TJM : 450 à 650 € par jour",
 			tjmNote: "Fourchette selon la complexité, la durée et l'urgence",
 			cta: "Demander un devis",
 			forWhom: {
 				title: "Pour qui ?",
-				subtitle: "Quelques exemples concrets de projets que j'accompagne au quotidien.",
+				subtitle:
+					"Quelques exemples concrets de projets que j'accompagne au quotidien.",
 				items: [
 					{
 						icon: "bowl-food",
@@ -431,7 +528,8 @@ export const locales = {
 						"Optimisation de base pour être visible sur Google",
 					],
 					maintenance: "Maintenance optionnelle : 150 € par mois",
-					maintenanceDetails: "Mises à jour, sauvegardes hebdomadaires, surveillance technique et réponse par email sous 48 heures",
+					maintenanceDetails:
+						"Mises à jour, sauvegardes hebdomadaires, surveillance technique et réponse par email sous 48 heures",
 				},
 				professionnel: {
 					name: "Professionnel",
@@ -447,7 +545,8 @@ export const locales = {
 						"Surveillance des logs, des métriques et des alertes",
 					],
 					maintenance: "Maintenance recommandée : 300 € par mois",
-					maintenanceDetails: "Sauvegardes quotidiennes, surveillance 24h sur 24, support sous 24 heures, mises à jour de sécurité et rapport mensuel",
+					maintenanceDetails:
+						"Sauvegardes quotidiennes, surveillance 24h sur 24, support sous 24 heures, mises à jour de sécurité et rapport mensuel",
 				},
 				surmesure: {
 					name: "Sur-mesure / Enterprise",
@@ -463,7 +562,8 @@ export const locales = {
 						"Documentation technique exhaustive",
 					],
 					maintenance: "Maintenance sur-mesure : à partir de 500 € par mois",
-					maintenanceDetails: "Engagement de service négociable selon vos besoins",
+					maintenanceDetails:
+						"Engagement de service négociable selon vos besoins",
 				},
 			},
 			alacarte: {
@@ -472,11 +572,20 @@ export const locales = {
 					{ name: "Audit de sécurité (OWASP)", price: "1 500 à 3 000 €" },
 					{ name: "Audit fonctionnel / technique", price: "1 000 à 2 500 €" },
 					{ name: "Conteneurisation d'un existant", price: "1 500 à 4 000 €" },
-					{ name: "Migration cloud (AWS / GCP / Azure)", price: "5 000 à 20 000 €" },
+					{
+						name: "Migration cloud (AWS / GCP / Azure)",
+						price: "5 000 à 20 000 €",
+					},
 					{ name: "Mise en place CI/CD complet", price: "2 000 à 6 000 €" },
 					{ name: "Intégration IA / RAG / chatbot", price: "3 000 à 12 000 €" },
-					{ name: "Formation / transfert de compétences", price: "500 à 800 € par jour" },
-					{ name: "Intervention urgente sous 48 heures", price: "TJM majoré de 50 pour cent" },
+					{
+						name: "Formation / transfert de compétences",
+						price: "500 à 800 € par jour",
+					},
+					{
+						name: "Intervention urgente sous 48 heures",
+						price: "TJM majoré de 50 pour cent",
+					},
 				],
 			},
 			transparency: {
@@ -486,11 +595,13 @@ export const locales = {
 		},
 		contact: {
 			title: "Contactez-moi",
-			description: "Ouvert aux échanges autour de nouveaux projets ou collaborations",
+			description:
+				"Ouvert aux échanges autour de nouveaux projets ou collaborations",
 			connectTitle: "Connectons-nous",
 			availability: {
 				status: "Disponible pour de nouveaux projets",
-				description: "Ouvert aux opportunités en Cloud/DevOps, Fullstack, IA et formations.",
+				description:
+					"Ouvert aux opportunités en Cloud/DevOps, Fullstack, IA et formations.",
 			},
 			formTitle: "Envoyez-moi un message",
 			contactMethods: {
@@ -615,7 +726,14 @@ export const locales = {
 				},
 				teaching: {
 					title: "Teaching & Pedagogy",
-					skills: ["Passion", "Bootcamp", "Mentoring", "Management", "Debug", "Tech watch"],
+					skills: [
+						"Passion",
+						"Bootcamp",
+						"Mentoring",
+						"Management",
+						"Debug",
+						"Tech watch",
+					],
 				},
 			},
 			techDetails: {
@@ -625,66 +743,109 @@ export const locales = {
 				"Full-Stack":
 					"I like building products end-to-end, from design to data. Understanding the full stack makes everything more coherent and purposeful.",
 				AI: "AI fascinates me because it turns raw data into smart, actionable systems. I use it to make tools that think and adapt faster.",
-				Teaching: "Teaching is about sharing what I once had to figure out myself. Helping others gain autonomy is what keeps me motivated.",
+				Teaching:
+					"Teaching is about sharing what I once had to figure out myself. Helping others gain autonomy is what keeps me motivated.",
 
 				// DevOps
 				AWS: "A mature and reliable cloud environment that lets me build scalable systems. I appreciate its flexibility and ecosystem depth.",
-				Terraform: "Infrastructure as code done right. It brings reproducibility, traceability, and confidence to every deployment.",
-				Ansible: "A simple, powerful way to automate server configuration. One command, consistent environments, no surprises.",
-				Docker: "Containers make deployment predictable and portable. No more 'it works on my machine' excuses.",
+				Terraform:
+					"Infrastructure as code done right. It brings reproducibility, traceability, and confidence to every deployment.",
+				Ansible:
+					"A simple, powerful way to automate server configuration. One command, consistent environments, no surprises.",
+				Docker:
+					"Containers make deployment predictable and portable. No more 'it works on my machine' excuses.",
 				Traefik:
 					"A modern reverse proxy and load balancer that fits perfectly with Docker and Kubernetes. I use it to simplify routing, handle HTTPS, and centralize access control.",
-				Kubernetes: "A demanding but essential orchestrator. Once mastered, it handles scaling, recovery, and balancing with precision.",
-				"CI/CD": "Automating build, test, and deploy pipelines saves time and reduces stress. Consistency is the real productivity boost.",
-				Jenkins: "Old-school but still solid. Reliable when I need a fully customizable automation pipeline.",
-				"GitLab CI": "An all-in-one solution for code, CI/CD, and deployment. Simple, integrated, and great for small teams.",
-				Prometheus: "My go-to for collecting metrics and detecting issues early. Observability starts here.",
-				Grafana: "Visualizing data brings clarity. Dashboards turn metrics into decisions instead of guesswork.",
-				SonarQube: "The guardian of clean code. It spots vulnerabilities and technical debt before they become costly.",
-				Cypress: "End-to-end testing that feels natural. Fast, visual, and easy to maintain for front-end work.",
-				Playwright: "A modern, multi-browser testing tool. Reliable for ensuring consistent UX across all environments.",
-				Artillery: "I use it for load and stress testing. Better to break things myself than let users do it first.",
+				Kubernetes:
+					"A demanding but essential orchestrator. Once mastered, it handles scaling, recovery, and balancing with precision.",
+				"CI/CD":
+					"Automating build, test, and deploy pipelines saves time and reduces stress. Consistency is the real productivity boost.",
+				Jenkins:
+					"Old-school but still solid. Reliable when I need a fully customizable automation pipeline.",
+				"GitLab CI":
+					"An all-in-one solution for code, CI/CD, and deployment. Simple, integrated, and great for small teams.",
+				Prometheus:
+					"My go-to for collecting metrics and detecting issues early. Observability starts here.",
+				Grafana:
+					"Visualizing data brings clarity. Dashboards turn metrics into decisions instead of guesswork.",
+				SonarQube:
+					"The guardian of clean code. It spots vulnerabilities and technical debt before they become costly.",
+				Cypress:
+					"End-to-end testing that feels natural. Fast, visual, and easy to maintain for front-end work.",
+				Playwright:
+					"A modern, multi-browser testing tool. Reliable for ensuring consistent UX across all environments.",
+				Artillery:
+					"I use it for load and stress testing. Better to break things myself than let users do it first.",
 
 				// Full-stack
-				React: "A reliable way to build fast, modular UIs. Components make complex interfaces manageable.",
-				"Next.js": "A complete framework that takes React to production level. Great balance between speed, SEO, and structure.",
-				TypeScript: "Static typing that prevents simple mistakes. It adds structure and peace of mind to JavaScript projects.",
-				"Node.js": "Fast, lightweight, and perfect for responsive APIs. Event-driven design just makes sense for the web.",
-				NestJS: "A structured and maintainable backend framework for Node.js. Ideal for long-term projects that need clarity.",
-				MongoDB: "A flexible NoSQL database for fast iteration. Perfect when the data model evolves frequently.",
-				PostgreSQL: "A solid, reliable relational database. My go-to when data integrity and scalability matter.",
-				Express: "Minimal, fast, and to the point. Great for quick APIs without unnecessary layers.",
-				"React Native": "Build once, deploy everywhere. I like how it bridges web and mobile without duplication.",
+				React:
+					"A reliable way to build fast, modular UIs. Components make complex interfaces manageable.",
+				"Next.js":
+					"A complete framework that takes React to production level. Great balance between speed, SEO, and structure.",
+				TypeScript:
+					"Static typing that prevents simple mistakes. It adds structure and peace of mind to JavaScript projects.",
+				"Node.js":
+					"Fast, lightweight, and perfect for responsive APIs. Event-driven design just makes sense for the web.",
+				NestJS:
+					"A structured and maintainable backend framework for Node.js. Ideal for long-term projects that need clarity.",
+				MongoDB:
+					"A flexible NoSQL database for fast iteration. Perfect when the data model evolves frequently.",
+				PostgreSQL:
+					"A solid, reliable relational database. My go-to when data integrity and scalability matter.",
+				Express:
+					"Minimal, fast, and to the point. Great for quick APIs without unnecessary layers.",
+				"React Native":
+					"Build once, deploy everywhere. I like how it bridges web and mobile without duplication.",
 				Expo: "A smooth developer experience for mobile apps. It simplifies builds, testing, and deployment.",
-				Flask: "A lightweight Python framework for APIs and prototypes. Simple, fast, and extendable when needed.",
-				Tailwind: "A clean, utility-first approach to styling. It keeps design consistent and fast to implement.",
+				Flask:
+					"A lightweight Python framework for APIs and prototypes. Simple, fast, and extendable when needed.",
+				Tailwind:
+					"A clean, utility-first approach to styling. It keeps design consistent and fast to implement.",
 
 				// AI Engineering
-				"OpenAI GPT": "A strong base for text generation, summarization, and conversational tools. Practical and easy to integrate.",
-				LangChain: "The missing layer between LLMs, data, and logic. It makes AI actually usable in real workflows.",
-				FastAPI: "A fast and type-safe Python framework for APIs. The built-in docs are a huge productivity gain.",
-				Python: "My main language for AI and automation. Clear syntax, rich ecosystem, and fast to prototype with.",
+				"OpenAI GPT":
+					"A strong base for text generation, summarization, and conversational tools. Practical and easy to integrate.",
+				LangChain:
+					"The missing layer between LLMs, data, and logic. It makes AI actually usable in real workflows.",
+				FastAPI:
+					"A fast and type-safe Python framework for APIs. The built-in docs are a huge productivity gain.",
+				Python:
+					"My main language for AI and automation. Clear syntax, rich ecosystem, and fast to prototype with.",
 				ML: "Teaching systems to recognize patterns and make predictions. A perfect mix of math and experimentation.",
-				PyTorch: "Flexible and intuitive for research and prototyping. Great for experimenting quickly with ideas.",
-				TensorFlow: "Built for production-scale ML. Stable, optimized, and ready for deployment at scale.",
-				"Scikit-learn": "Clean, consistent, and well-documented. My go-to for classical ML algorithms and quick testing.",
-				Keras: "A clear and intuitive API for deep learning. Great for fast iteration and experimentation.",
-				NumPy: "The foundation of scientific computing in Python. I use it everywhere, from preprocessing to AI.",
-				ChromaDB: "A modern vector database for semantic search and memory. Excellent for context-aware AI apps.",
-				Pinecone: "A fast and scalable vector database in the cloud. Perfect for production-ready embeddings.",
+				PyTorch:
+					"Flexible and intuitive for research and prototyping. Great for experimenting quickly with ideas.",
+				TensorFlow:
+					"Built for production-scale ML. Stable, optimized, and ready for deployment at scale.",
+				"Scikit-learn":
+					"Clean, consistent, and well-documented. My go-to for classical ML algorithms and quick testing.",
+				Keras:
+					"A clear and intuitive API for deep learning. Great for fast iteration and experimentation.",
+				NumPy:
+					"The foundation of scientific computing in Python. I use it everywhere, from preprocessing to AI.",
+				ChromaDB:
+					"A modern vector database for semantic search and memory. Excellent for context-aware AI apps.",
+				Pinecone:
+					"A fast and scalable vector database in the cloud. Perfect for production-ready embeddings.",
 
 				// Training & Mentoring
-				Bootcamp: "An intense, hands-on learning experience. Real projects, real challenges, real progress.",
-				Mentorat: "Mentoring is about listening first. I help others find their path rather than giving them mine.",
-				Management: "Good management is about clarity and alignment. Give people context and trust, and they’ll deliver.",
-				Passion: "The drive to keep learning and building. Curiosity keeps everything moving forward.",
-				Debug: "Solving bugs is understanding systems deeply. It’s part logic, part patience, part satisfaction.",
-				Veille: "Staying up to date isn’t optional. Continuous learning keeps my methods sharp and relevant.",
+				Bootcamp:
+					"An intense, hands-on learning experience. Real projects, real challenges, real progress.",
+				Mentorat:
+					"Mentoring is about listening first. I help others find their path rather than giving them mine.",
+				Management:
+					"Good management is about clarity and alignment. Give people context and trust, and they’ll deliver.",
+				Passion:
+					"The drive to keep learning and building. Curiosity keeps everything moving forward.",
+				Debug:
+					"Solving bugs is understanding systems deeply. It’s part logic, part patience, part satisfaction.",
+				Veille:
+					"Staying up to date isn’t optional. Continuous learning keeps my methods sharp and relevant.",
 			},
 		},
 		education: {
 			title: "Degrees & Certificates",
-			subtitle: "From hospitality and finance to AI: a career transformation journey driven by curiosity and continuous learning",
+			subtitle:
+				"From hospitality and finance to AI: a career transformation journey driven by curiosity and continuous learning",
 			badges: {
 				degree: "Degree",
 				certification: "Certification",
@@ -703,42 +864,50 @@ export const locales = {
 				aiEngineer: {
 					title: "AI Engineer Certification",
 					institution: "Ironhack Paris",
-					description: "Specialized in machine learning, deep learning, NLP and AI application deployment with Python, PyTorch and LangChain",
+					description:
+						"Specialized in machine learning, deep learning, NLP and AI application deployment with Python, PyTorch and LangChain",
 				},
 				rncp: {
 					title: "RNCP 6 - Web & Mobile Developer",
 					institution: "La Capsule - Tech Bootcamp",
-					description: "Professional certification level Bachelor+3/4 in web, mobile developement and digital transformation",
+					description:
+						"Professional certification level Bachelor+3/4 in web, mobile developement and digital transformation",
 				},
 				mscSkema: {
 					title: "MSc Corporate Financial Management",
 					institution: "SKEMA Business School",
-					description: "Master's degree in corporate finance, financial analysis, investment strategy and management control",
+					description:
+						"Master's degree in corporate finance, financial analysis, investment strategy and management control",
 				},
 				desmiSkema: {
 					title: "DESMI International Management",
 					institution: "SKEMA Business School",
-					description: "Higher education diploma in international management, global strategy and business development",
+					description:
+						"Higher education diploma in international management, global strategy and business development",
 				},
 				bbaGlion: {
 					title: "BBA (Hons.) International Hospitality Management",
 					institution: "Glion Institute of Higher Education",
-					description: "Bachelor's degree with honors in hospitality management, hotel real estate development and hospitality finance",
+					description:
+						"Bachelor's degree with honors in hospitality management, hotel real estate development and hospitality finance",
 				},
 			},
 		},
 		interests: {
 			title: "My Interests",
 			description: "Beyond code, what drives me",
-			quote: "From finance to AI, every passion feeds my vision: understand, create and share with authenticity.",
+			quote:
+				"From finance to AI, every passion feeds my vision: understand, create and share with authenticity.",
 			items: {
 				kendo: {
 					title: "Kendo",
-					description: "Traditional Japanese martial art, discipline and self-improvement",
+					description:
+						"Traditional Japanese martial art, discipline and self-improvement",
 				},
 				rugby: {
 					title: "Rugby & French Team",
-					description: "Passion for rugby and unconditional supporter of the French national team",
+					description:
+						"Passion for rugby and unconditional supporter of the French national team",
 				},
 				anime: {
 					title: "Anime & Manga",
@@ -773,7 +942,8 @@ export const locales = {
 		},
 		projects: {
 			title: "My Projects & Links",
-			description: "A few platforms, tools, and technical experiences I've developed.",
+			description:
+				"A few platforms, tools, and technical experiences I've developed.",
 			status: {
 				active: "Active",
 				paused: "Paused",
@@ -782,7 +952,8 @@ export const locales = {
 			techStack: "Tech Stack:",
 			moreProjects: {
 				title: "More Projects Coming Soon",
-				description: "I'm constantly working on new projects and experiments. Stay tuned to discover what's next!",
+				description:
+					"I'm constantly working on new projects and experiments. Stay tuned to discover what's next!",
 			},
 			cta: {
 				site: "Visit site",
@@ -794,36 +965,66 @@ export const locales = {
 			},
 			items: [
 				{
-					slug: "heirloom",
-					name: "Heirloom",
+					slug: "odyssai",
+					name: "OdyssAI",
 					description:
-						"Open-source (AGPL-3.0), self-hosted family tree builder. Your family data stays on your own machine, with no proprietary cloud. GEDCOM 5.5.1 import/export, automatic tree rendering and a built-in AI assistant.",
-					stack: ["NestJS", "GraphQL", "Prisma", "PostgreSQL", "React", "Vite", "Astro", "Docker", "Ansible"],
+						"Narrative role-playing game you play online. The game master is an AI narrator: it describes places, speaks for the characters, adjudicates your actions and remembers everything that happened. No need to gather a group on a Friday night, or to find someone willing to run the session. The narrator is always there, and it knows your story.",
+					stack: [
+						"NestJS",
+						"NextJS",
+						"LangGraph",
+						"LangSmith",
+						"PostgreSQL",
+						"PGVector",
+						"MongoDB",
+						"RabbitMQ",
+						"Keycloak",
+						"Jenkins",
+						"Docker",
+						"OpenRouter",
+						"OpenAI",
+					],
 					links: {
-						site: "https://heirloom-app.com",
-						repoMono: "https://github.com/Jyok1m/heirloom",
+						site: "https://odyssai.app",
+						repoMono: "https://github.com/Jyok1m/odyssai",
 					},
 					status: "Work in progress",
 				},
 				{
-					slug: "odyssai",
-					name: "Odyssai",
+					slug: "heirloom",
+					name: "Heirloom",
 					description:
-						"AI-powered narrative role-playing game where the player becomes the hero of their own story. Create worlds, shape characters and steer the plot through natural conversations.",
-					stack: ["Flask", "Expo", "LangChain", "MongoDB", "Docker", "Docker Compose", "ChromaDB", "OpenAI"],
+						"Open-source (AGPL-3.0), self-hosted family tree builder. Your family data stays on your own machine, with no proprietary cloud. GEDCOM 5.5.1 import/export, automatic tree rendering and a built-in AI assistant.",
+					stack: [
+						"NestJS",
+						"GraphQL",
+						"Prisma",
+						"PostgreSQL",
+						"React",
+						"Vite",
+						"Astro",
+						"Docker",
+						"Ansible",
+					],
 					links: {
-						"repo-front": "https://github.com/Jyok1m/odyssai-app",
-						"repo-back": "https://github.com/Jyok1m/odyssai-core",
-						// repoInfra: "https://gitlab.com/odyssai/odyssai-infra",
+						site: "https://heirloom-app.com",
+						repoMono: "https://github.com/Jyok1m/heirloom",
 					},
-					status: "Work in progress",
+					status: "Active",
 				},
 				{
 					slug: "neoney",
 					name: "Neoney",
 					description:
 						"A social network built for neo-entrepreneurs, made by entrepreneurs for entrepreneurs. It streamlines networking and business generation between members.",
-					stack: ["Next.js", "Express", "Tailwind", "MongoDB", "Vercel", "Northflank"],
+					stack: [
+						"Next.js",
+						"Express",
+						"Tailwind",
+						"MongoDB",
+						"Vercel",
+						"Northflank",
+					],
 					links: {
 						site: "https://www.neoney.co/",
 					},
@@ -834,9 +1035,17 @@ export const locales = {
 					name: "Ipseis",
 					description:
 						"A platform of active, immersive and tailor-made training programs for professionals in the healthcare, social and medical-social sectors.",
-					stack: ["Next.js", "Express", "Docker", "Tailwind", "Fontawesome", "MongoDB", "Vercel"],
+					stack: [
+						"Next.js",
+						"Express",
+						"Docker",
+						"Tailwind",
+						"Fontawesome",
+						"MongoDB",
+						"Vercel",
+					],
 					links: {
-						site: "https://www.ipseis.fr",
+						site: "https://ipseis.eu",
 						"repo-front": "https://github.com/Jyok1m/ipseis",
 						"repo-back": "https://github.com/Jyok1m/ipseis-backend",
 					},
@@ -858,7 +1067,15 @@ export const locales = {
 					name: "AI Wedder",
 					description:
 						"A platform that analyzes wedding vendor reviews, using AI to assess quality and sentiment so couples can choose with confidence.",
-					stack: ["Next.js", "FastAPI", "MongoDB", "HuggingFace", "Playwright", "OpenAI", "CamemBERT"],
+					stack: [
+						"Next.js",
+						"FastAPI",
+						"MongoDB",
+						"HuggingFace",
+						"Playwright",
+						"OpenAI",
+						"CamemBERT",
+					],
 					links: {
 						site: "https://ai-wedder-frontend.vercel.app/",
 						"repo-front": "https://github.com/Jyok1m/ai-wedder-frontend",
@@ -872,7 +1089,8 @@ export const locales = {
 
 		pricing: {
 			title: "Pricing & Services",
-			subtitle: "A few reference points to help size a project, from small sites to more complete architectures. Ranges are indicative and the final quote always depends on the scope.",
+			subtitle:
+				"A few reference points to help size a project, from small sites to more complete architectures. Ranges are indicative and the final quote always depends on the scope.",
 			tjm: "Daily rate: €450 to €650 per day",
 			tjmNote: "Range depends on complexity, duration and urgency",
 			cta: "Request a quote",
@@ -932,7 +1150,8 @@ export const locales = {
 						"Basic search engine optimization so your customers can find you on Google",
 					],
 					maintenance: "Optional maintenance: €150 per month",
-					maintenanceDetails: "Updates, weekly backups, technical monitoring and email support within 48 hours",
+					maintenanceDetails:
+						"Updates, weekly backups, technical monitoring and email support within 48 hours",
 				},
 				professionnel: {
 					name: "Professional",
@@ -948,7 +1167,8 @@ export const locales = {
 						"Monitoring of logs, metrics and alerts",
 					],
 					maintenance: "Recommended maintenance: €300 per month",
-					maintenanceDetails: "Daily backups, monitoring 24 hours a day, support within 24 hours, security updates and monthly report",
+					maintenanceDetails:
+						"Daily backups, monitoring 24 hours a day, support within 24 hours, security updates and monthly report",
 				},
 				surmesure: {
 					name: "Custom / Enterprise",
@@ -964,7 +1184,8 @@ export const locales = {
 						"Comprehensive technical documentation",
 					],
 					maintenance: "Custom maintenance: from €500 per month",
-					maintenanceDetails: "Service level agreement negotiable based on your needs",
+					maintenanceDetails:
+						"Service level agreement negotiable based on your needs",
 				},
 			},
 			alacarte: {
@@ -972,12 +1193,27 @@ export const locales = {
 				items: [
 					{ name: "Security audit (OWASP)", price: "€1,500 to €3,000" },
 					{ name: "Functional / technical audit", price: "€1,000 to €2,500" },
-					{ name: "Containerization of existing app", price: "€1,500 to €4,000" },
-					{ name: "Cloud migration (AWS / GCP / Azure)", price: "€5,000 to €20,000" },
+					{
+						name: "Containerization of existing app",
+						price: "€1,500 to €4,000",
+					},
+					{
+						name: "Cloud migration (AWS / GCP / Azure)",
+						price: "€5,000 to €20,000",
+					},
 					{ name: "Full CI/CD setup", price: "€2,000 to €6,000" },
-					{ name: "AI / RAG / chatbot integration", price: "€3,000 to €12,000" },
-					{ name: "Training / knowledge transfer", price: "€500 to €800 per day" },
-					{ name: "Emergency intervention within 48 hours", price: "Daily rate plus 50 percent" },
+					{
+						name: "AI / RAG / chatbot integration",
+						price: "€3,000 to €12,000",
+					},
+					{
+						name: "Training / knowledge transfer",
+						price: "€500 to €800 per day",
+					},
+					{
+						name: "Emergency intervention within 48 hours",
+						price: "Daily rate plus 50 percent",
+					},
 				],
 			},
 			transparency: {
@@ -987,11 +1223,13 @@ export const locales = {
 		},
 		contact: {
 			title: "Contact me",
-			description: "Open to conversations around new projects or collaborations",
+			description:
+				"Open to conversations around new projects or collaborations",
 			connectTitle: "Let's connect",
 			availability: {
 				status: "Available for new projects",
-				description: "Open to opportunities in Cloud/DevOps, Fullstack, AI and training.",
+				description:
+					"Open to opportunities in Cloud/DevOps, Fullstack, AI and training.",
 			},
 			formTitle: "Send me a message",
 			contactMethods: {
